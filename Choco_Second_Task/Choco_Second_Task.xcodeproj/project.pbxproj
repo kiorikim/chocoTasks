@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6447E18215579BB001A8C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6447E17215579BB001A8C14 /* Main.storyboard */; };
+		A678DF842154E8020081134E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678DF832154E8020081134E /* AppDelegate.swift */; };
+		A678DF862154E8020081134E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678DF852154E8020081134E /* ViewController.swift */; };
+		A678DF992154E8040081134E /* Choco_Second_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678DF982154E8040081134E /* Choco_Second_TaskTests.swift */; };
+		A678DFA42154E8040081134E /* Choco_Second_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678DFA32154E8040081134E /* Choco_Second_TaskUITests.swift */; };
+		A678DFBB2154F2DD0081134E /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678DFB92154F2DD0081134E /* TableViewCell2.swift */; };
+		A678DFBC2154F2DD0081134E /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A678DFBA2154F2DD0081134E /* TableViewCell2.xib */; };
+		A678DFBF215506DD0081134E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678DFBD215506DD0081134E /* HeaderView.swift */; };
+		A678DFC0215506DD0081134E /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A678DFBE215506DD0081134E /* HeaderView.xib */; };
+		A678DFC4215556400081134E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678DFC3215556400081134E /* DetailsViewController.swift */; };
+		A678DFC6215556F10081134E /* FirstBlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = A678DFC5215556F10081134E /* FirstBlock.xib */; };
+		A678DFC8215559E00081134E /* FirstBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678DFC7215559E00081134E /* FirstBlock.swift */; };
+		A678DFCD215560B30081134E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A678DFCC215560B30081134E /* Assets.xcassets */; };
+		A678DFD02155636A0081134E /* SecondBlock.xib in Resources */ = {isa = PBXBuildFile; fileRef = A678DFCF2155636A0081134E /* SecondBlock.xib */; };
+		A678DFD22155637E0081134E /* SecondBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A678DFD12155637E0081134E /* SecondBlock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A678DF952154E8040081134E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A678DF782154E8020081134E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A678DF7F2154E8020081134E;
+			remoteInfo = Choco_Second_Task;
+		};
+		A678DFA02154E8040081134E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A678DF782154E8020081134E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A678DF7F2154E8020081134E;
+			remoteInfo = Choco_Second_Task;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6447E17215579BB001A8C14 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A678DF802154E8020081134E /* Choco_Second_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choco_Second_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A678DF832154E8020081134E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A678DF852154E8020081134E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A678DF8F2154E8030081134E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A678DF942154E8040081134E /* Choco_Second_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Choco_Second_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A678DF982154E8040081134E /* Choco_Second_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choco_Second_TaskTests.swift; sourceTree = "<group>"; };
+		A678DF9A2154E8040081134E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A678DF9F2154E8040081134E /* Choco_Second_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Choco_Second_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A678DFA32154E8040081134E /* Choco_Second_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choco_Second_TaskUITests.swift; sourceTree = "<group>"; };
+		A678DFA52154E8040081134E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A678DFB52154EC9C0081134E /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Regular.otf"; path = "/Volumes/SF-Font/SF Pro/SF-Pro-Text-Regular.otf"; sourceTree = "<absolute>"; };
+		A678DFB62154EC9C0081134E /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Bold.otf"; path = "/Volumes/SF-Font/SF Pro/SF-Pro-Text-Bold.otf"; sourceTree = "<absolute>"; };
+		A678DFB72154EC9C0081134E /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Medium.otf"; path = "/Volumes/SF-Font/SF Pro/SF-Pro-Text-Medium.otf"; sourceTree = "<absolute>"; };
+		A678DFB82154EC9C0081134E /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Semibold.otf"; path = "/Volumes/SF-Font/SF Pro/SF-Pro-Text-Semibold.otf"; sourceTree = "<absolute>"; };
+		A678DFB92154F2DD0081134E /* TableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		A678DFBA2154F2DD0081134E /* TableViewCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
+		A678DFBD215506DD0081134E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A678DFBE215506DD0081134E /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		A678DFC3215556400081134E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A678DFC5215556F10081134E /* FirstBlock.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstBlock.xib; sourceTree = "<group>"; };
+		A678DFC7215559E00081134E /* FirstBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBlock.swift; sourceTree = "<group>"; };
+		A678DFCC215560B30081134E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A678DFCF2155636A0081134E /* SecondBlock.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondBlock.xib; sourceTree = "<group>"; };
+		A678DFD12155637E0081134E /* SecondBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondBlock.swift; sourceTree = "<group>"; };
+		A678DFD32155650E0081134E /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../../../../../Downloads/open-sans/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		A678DFD4215565330081134E /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../../Downloads/open-sans/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A678DF7D2154E8020081134E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A678DF912154E8040081134E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A678DF9C2154E8040081134E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A678DF772154E8020081134E = {
+			isa = PBXGroup;
+			children = (
+				A678DF822154E8020081134E /* Choco_Second_Task */,
+				A678DF972154E8040081134E /* Choco_Second_TaskTests */,
+				A678DFA22154E8040081134E /* Choco_Second_TaskUITests */,
+				A678DF812154E8020081134E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A678DF812154E8020081134E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A678DF802154E8020081134E /* Choco_Second_Task.app */,
+				A678DF942154E8040081134E /* Choco_Second_TaskTests.xctest */,
+				A678DF9F2154E8040081134E /* Choco_Second_TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A678DF822154E8020081134E /* Choco_Second_Task */ = {
+			isa = PBXGroup;
+			children = (
+				A678DFCB21555A1B0081134E /* SecondPage */,
+				A678DFCA215559FF0081134E /* FirstPage */,
+				A678DFC9215559E60081134E /* Fonts */,
+				A678DF832154E8020081134E /* AppDelegate.swift */,
+				A678DF8F2154E8030081134E /* Info.plist */,
+				A6447E17215579BB001A8C14 /* Main.storyboard */,
+				A678DFCC215560B30081134E /* Assets.xcassets */,
+			);
+			path = Choco_Second_Task;
+			sourceTree = "<group>";
+		};
+		A678DF972154E8040081134E /* Choco_Second_TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				A678DF982154E8040081134E /* Choco_Second_TaskTests.swift */,
+				A678DF9A2154E8040081134E /* Info.plist */,
+			);
+			path = Choco_Second_TaskTests;
+			sourceTree = "<group>";
+		};
+		A678DFA22154E8040081134E /* Choco_Second_TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A678DFA32154E8040081134E /* Choco_Second_TaskUITests.swift */,
+				A678DFA52154E8040081134E /* Info.plist */,
+			);
+			path = Choco_Second_TaskUITests;
+			sourceTree = "<group>";
+		};
+		A678DFC9215559E60081134E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A678DFD32155650E0081134E /* OpenSans-Regular.ttf */,
+				A678DFD4215565330081134E /* OpenSans-Bold.ttf */,
+				A678DFB82154EC9C0081134E /* SF-Pro-Text-Semibold.otf */,
+				A678DFB52154EC9C0081134E /* SF-Pro-Text-Regular.otf */,
+				A678DFB62154EC9C0081134E /* SF-Pro-Text-Bold.otf */,
+				A678DFB72154EC9C0081134E /* SF-Pro-Text-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A678DFCA215559FF0081134E /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				A678DF852154E8020081134E /* ViewController.swift */,
+				A678DFBD215506DD0081134E /* HeaderView.swift */,
+				A678DFBE215506DD0081134E /* HeaderView.xib */,
+				A678DFB92154F2DD0081134E /* TableViewCell2.swift */,
+				A678DFBA2154F2DD0081134E /* TableViewCell2.xib */,
+			);
+			path = FirstPage;
+			sourceTree = "<group>";
+		};
+		A678DFCB21555A1B0081134E /* SecondPage */ = {
+			isa = PBXGroup;
+			children = (
+				A678DFC3215556400081134E /* DetailsViewController.swift */,
+				A678DFC5215556F10081134E /* FirstBlock.xib */,
+				A678DFC7215559E00081134E /* FirstBlock.swift */,
+				A678DFCF2155636A0081134E /* SecondBlock.xib */,
+				A678DFD12155637E0081134E /* SecondBlock.swift */,
+			);
+			path = SecondPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A678DF7F2154E8020081134E /* Choco_Second_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A678DFA82154E8040081134E /* Build configuration list for PBXNativeTarget "Choco_Second_Task" */;
+			buildPhases = (
+				A678DF7C2154E8020081134E /* Sources */,
+				A678DF7D2154E8020081134E /* Frameworks */,
+				A678DF7E2154E8020081134E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Choco_Second_Task;
+			productName = Choco_Second_Task;
+			productReference = A678DF802154E8020081134E /* Choco_Second_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A678DF932154E8040081134E /* Choco_Second_TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A678DFAB2154E8040081134E /* Build configuration list for PBXNativeTarget "Choco_Second_TaskTests" */;
+			buildPhases = (
+				A678DF902154E8040081134E /* Sources */,
+				A678DF912154E8040081134E /* Frameworks */,
+				A678DF922154E8040081134E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A678DF962154E8040081134E /* PBXTargetDependency */,
+			);
+			name = Choco_Second_TaskTests;
+			productName = Choco_Second_TaskTests;
+			productReference = A678DF942154E8040081134E /* Choco_Second_TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A678DF9E2154E8040081134E /* Choco_Second_TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A678DFAE2154E8040081134E /* Build configuration list for PBXNativeTarget "Choco_Second_TaskUITests" */;
+			buildPhases = (
+				A678DF9B2154E8040081134E /* Sources */,
+				A678DF9C2154E8040081134E /* Frameworks */,
+				A678DF9D2154E8040081134E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A678DFA12154E8040081134E /* PBXTargetDependency */,
+			);
+			name = Choco_Second_TaskUITests;
+			productName = Choco_Second_TaskUITests;
+			productReference = A678DF9F2154E8040081134E /* Choco_Second_TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A678DF782154E8020081134E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kim Kiori";
+				TargetAttributes = {
+					A678DF7F2154E8020081134E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A678DF932154E8040081134E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A678DF7F2154E8020081134E;
+					};
+					A678DF9E2154E8040081134E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A678DF7F2154E8020081134E;
+					};
+				};
+			};
+			buildConfigurationList = A678DF7B2154E8020081134E /* Build configuration list for PBXProject "Choco_Second_Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A678DF772154E8020081134E;
+			productRefGroup = A678DF812154E8020081134E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A678DF7F2154E8020081134E /* Choco_Second_Task */,
+				A678DF932154E8040081134E /* Choco_Second_TaskTests */,
+				A678DF9E2154E8040081134E /* Choco_Second_TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A678DF7E2154E8020081134E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A678DFBC2154F2DD0081134E /* TableViewCell2.xib in Resources */,
+				A678DFC0215506DD0081134E /* HeaderView.xib in Resources */,
+				A678DFC6215556F10081134E /* FirstBlock.xib in Resources */,
+				A6447E18215579BB001A8C14 /* Main.storyboard in Resources */,
+				A678DFCD215560B30081134E /* Assets.xcassets in Resources */,
+				A678DFD02155636A0081134E /* SecondBlock.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A678DF922154E8040081134E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A678DF9D2154E8040081134E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A678DF7C2154E8020081134E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A678DFBF215506DD0081134E /* HeaderView.swift in Sources */,
+				A678DFBB2154F2DD0081134E /* TableViewCell2.swift in Sources */,
+				A678DFC8215559E00081134E /* FirstBlock.swift in Sources */,
+				A678DFD22155637E0081134E /* SecondBlock.swift in Sources */,
+				A678DF862154E8020081134E /* ViewController.swift in Sources */,
+				A678DF842154E8020081134E /* AppDelegate.swift in Sources */,
+				A678DFC4215556400081134E /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A678DF902154E8040081134E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A678DF992154E8040081134E /* Choco_Second_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A678DF9B2154E8040081134E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A678DFA42154E8040081134E /* Choco_Second_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A678DF962154E8040081134E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A678DF7F2154E8020081134E /* Choco_Second_Task */;
+			targetProxy = A678DF952154E8040081134E /* PBXContainerItemProxy */;
+		};
+		A678DFA12154E8040081134E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A678DF7F2154E8020081134E /* Choco_Second_Task */;
+			targetProxy = A678DFA02154E8040081134E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A678DFA62154E8040081134E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A678DFA72154E8040081134E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A678DFA92154E8040081134E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Choco_Second_Task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kiori.Choco-Second-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A678DFAA2154E8040081134E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Choco_Second_Task/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kiori.Choco-Second-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A678DFAC2154E8040081134E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Choco_Second_TaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kiori.Choco-Second-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Choco_Second_Task.app/Choco_Second_Task";
+			};
+			name = Debug;
+		};
+		A678DFAD2154E8040081134E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Choco_Second_TaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kiori.Choco-Second-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Choco_Second_Task.app/Choco_Second_Task";
+			};
+			name = Release;
+		};
+		A678DFAF2154E8040081134E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Choco_Second_TaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kiori.Choco-Second-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Choco_Second_Task;
+			};
+			name = Debug;
+		};
+		A678DFB02154E8040081134E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Choco_Second_TaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kiori.Choco-Second-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Choco_Second_Task;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A678DF7B2154E8020081134E /* Build configuration list for PBXProject "Choco_Second_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A678DFA62154E8040081134E /* Debug */,
+				A678DFA72154E8040081134E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A678DFA82154E8040081134E /* Build configuration list for PBXNativeTarget "Choco_Second_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A678DFA92154E8040081134E /* Debug */,
+				A678DFAA2154E8040081134E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A678DFAB2154E8040081134E /* Build configuration list for PBXNativeTarget "Choco_Second_TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A678DFAC2154E8040081134E /* Debug */,
+				A678DFAD2154E8040081134E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A678DFAE2154E8040081134E /* Build configuration list for PBXNativeTarget "Choco_Second_TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A678DFAF2154E8040081134E /* Debug */,
+				A678DFB02154E8040081134E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A678DF782154E8020081134E /* Project object */;
+}

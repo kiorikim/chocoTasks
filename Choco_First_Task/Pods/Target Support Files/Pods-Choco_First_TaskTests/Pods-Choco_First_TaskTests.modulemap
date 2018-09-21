@@ -1,0 +1,6 @@
+framework module Pods_Choco_First_TaskTests {
+  umbrella header "Pods-Choco_First_TaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
